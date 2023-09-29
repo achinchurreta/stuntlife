@@ -32,6 +32,9 @@ path('blog/', include('blog.urls')),
 #paths del page
 path('page/', include('pages.urls')),
 
+#paths del contact
+path('contact/', include('contact.urls')),
+
 #paths del admin
 path('admin/', admin.site.urls),
 ]
